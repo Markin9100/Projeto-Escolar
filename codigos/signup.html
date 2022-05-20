@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/sign.css">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link rel="shortcut icon" href="../midias/favicon (1).png" type="image/x-icon">
+        <title> Cadastre-se </title>
+    </head>
+<body>
+
+        
+    <div class= "conteiner-form">
+    <div class="form-box">
+        <a href="../home.html">
+            <i class="uil uil-arrow-left" id="back"></i>
+        </a>    
+        <h1>
+            CADASTRE-SE
+        </h1>
+        <form action="#">
+
+                <div class="field">
+                    <i class="uil uil-user"></i>
+                    <input type="text" id="name" placeholder="Nome Completo" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-at"></i>
+                    <input type="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-lock"></i>
+                    <input type="password" id="pass" placeholder="Senha" required>
+                </div>
+                <div class="field">
+                    <i class="uil uil-lock-access"></i>
+                    <input type="password" id="cfpass" placeholder="Confirmar Senha" required>
+                </div>
+                <p>Já possui cadastro? <a href="log.html">Clique aqui</a> para efetuar login!</p>
+            
+                <div class="btn">
+                    <div class="sign">
+                        <a href="signup2.html">
+                            <input type="submit" id="sbt" value="CADASTRE-SE">
+                        </a>
+                    </div>
+                </div>
+            
+        </form>
+    </div>
+    </div>
+    
+    <script>
+        var password = document.getElementById("pass")
+    confirm_password = document.getElementById("cfpass");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Senhas diferentes!");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+    </script>
+
+</body>
+</html>

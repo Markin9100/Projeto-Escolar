@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@media (min-width: 1100px) {
+    main p {
+        width: 35%;
+    }
+
+    aside {
+        position: absolute;
+        right: 10px;
+        top: 170px;
+        width: 50%;
+        border-radius: 10px;
+        
+
+    }
+
+    
+.servicos:hover {
+    box-shadow: 10px 20px 20px 5px rgba(0, 0, 0, 0.342);
+    transition: 0.3s;
+
+}
+
+    #content1 {
+        margin: 5px 15%;
+    }
+}
+
+@media (max-width: 450px) {
+    .text {
+        display: none;
+    }    
+
+    main p {
+        text-align: justify;
+    
+    }
+    
+}
+    :root {
+        
+        --cor1: #141D37;
+        --cor2: #122447;
+        --cor3: #1C4D8C;
+        --cor4: #267590;
+        --cor5: #04B2D9;
+    }
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: linear-gradient(to left, var(--cor1), var(--cor3));
+}
+
+header {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    border-bottom: solid white;
+    background-color: #122447a6;
+    box-shadow: 0px 1px 4px black;
+
+}
+
+header h1 {
+    padding: 20px 0px 0px 20px;
+    font-size: 4em;
+    font-style: italic;
+    color: white;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header h2 {
+    text-align: right;
+    margin: 5px 5px;
+
+}
+
+header h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+header h2 a:hover {
+    background-color: white;
+    color: var(--cor2);
+    border-radius: 5px;
+    padding: 5px 5px 0px 5px;
+    transition: 0.2s;
+}
+
+header span {
+    color: white;
+}
+
+main p {
+    color: white;
+    font-size: xx-large;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 25px 25px;
+}
+
+main p a i {
+    font-size: 200px;
+    border: solid white;
+    border-radius: 100%;
+    padding: 40px;
+    color: white;
+}
+
+main p a i:hover {
+    background-color: white;
+    color: var(--cor2);
+    transition: 0.3s;
+}
+
+#link {
+    color: white;
+    font-size: medium;
+    text-decoration: none;
+}
+
+#link:hover {
+    text-decoration: underline;
+}
+
+aside {
+    background-color: white;
+    color: var(--cor5);
+    box-shadow: 10px 0px 10px 10px rgba(0, 0, 0, 0.247);
+    height: 58%;
+}
+
+aside h1 {
+    text-align: center;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#content{
+    margin-top: 10px;
+    margin: auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 250px;
+
+}
+
+#content1{
+    margin-top: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.servicos{
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+.servicos a i {
+    color: var(--cor5);
+    font-size: 100px;
+    margin: 10px 0px;
+  
+}
+
+.servicos a{
+    color: var(--cor5);
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
