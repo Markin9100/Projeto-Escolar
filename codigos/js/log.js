@@ -17,6 +17,8 @@ const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const auth = getAuth();
 
+
+
 sbt.addEventListener('click',(e) =>{
   var email = document.getElementById('email').value;
   var password = document.getElementById('pass').value;
@@ -30,7 +32,8 @@ sbt.addEventListener('click',(e) =>{
       last_login: dt,
   })
 
-  alert('User Loged in!')
+  alert('Usuário logado')
+  window.location = '../../home.html'
 })
 
   .catch((error) => {

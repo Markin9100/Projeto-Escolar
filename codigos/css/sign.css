@@ -91,6 +91,10 @@ form {
 
 }
 
+.field :focus{
+    color: var(--cor5);
+}
+
 
 .field input {
     border: none;
@@ -100,6 +104,10 @@ form {
     background: none;
     width: 100%;
     color: white;
+}
+
+.field:focus{
+    border-bottom: solid 1px #04B2D9;
 }
 
 p {

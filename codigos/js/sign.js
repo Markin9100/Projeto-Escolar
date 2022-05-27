@@ -33,8 +33,8 @@ var username = document.getElementById('name').value;
       username: username,
       email: email
     })
-    alert('UserCreated')
-    // ...
+    alert('Usuário registrado!')
+    window.location = '../../home.html'
 })
 .catch((error) => {
     const errorCode = error.code;
