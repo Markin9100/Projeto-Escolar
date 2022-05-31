@@ -34,13 +34,13 @@ var username = document.getElementById('name').value;
       email: email
     })
     alert('Usuário registrado!')
-    window.location = '../../home.html'
+    window.location = '../codigos/home.html'
 })
 .catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
 
-    alert('errorMessage')
+    alert(errorMessage)
     // ..
 });
 });

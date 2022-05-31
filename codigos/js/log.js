@@ -32,8 +32,7 @@ sbt.addEventListener('click',(e) =>{
       last_login: dt,
   })
 
-  alert('Usuário logado')
-  window.location = '../../home.html'
+  window.location = '../codigos/home.html'
 })
 
   .catch((error) => {
