@@ -77,7 +77,25 @@ main h1 {
 
 main h2 {
     color: var(--cor5);
-    margin-bottom: 20px;
+    margin: 50px 0px;
+}
+
+main h3 {
+    color: var(--cor5);
+    margin-bottom: 10px;
+
+}
+
+.titulo {
+    padding-bottom: 15px;
+    border-bottom: solid 1px lightgrey;
+}
+
+.texto {
+    text-indent: 1em;
+    text-align: justify;
+    width: 50%;
+    margin: auto;
 }
 
 #sup {
