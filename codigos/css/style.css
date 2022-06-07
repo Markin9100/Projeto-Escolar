@@ -98,6 +98,10 @@ main h3 {
     margin: auto;
 }
 
+span {
+    color: var(--cor3);
+}
+
 main img {
     margin: auto;
     
