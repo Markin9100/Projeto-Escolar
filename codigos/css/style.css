@@ -5,18 +5,22 @@
 
     .texto {
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         width: 95%;
     }
 
-    main {
-        
+    .titulo {
+        font-size: 32px;
     }
     
 }
 
 @media (min-width: 770px) {
     .texto {
+        width: 50%;
+    }
+
+    .texto-cont {
         width: 50%;
     }
     
@@ -117,6 +121,21 @@ main h3 {
     text-align: justify;
     margin: auto;
     border-bottom: solid 0.5px #04b2d983 ;
+}
+
+.texto-cont {
+    text-indent: 1em;
+    text-align: justify;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.contato {
+    margin: 50px 0px;
 }
 
 span {
