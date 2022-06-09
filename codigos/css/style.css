@@ -12,7 +12,7 @@
     .titulo {
         font-size: 32px;
     }
-    
+
 }
 
 @media (min-width: 770px) {
@@ -22,6 +22,21 @@
 
     .texto-cont {
         width: 50%;
+    }
+
+    #wpp {
+        position: relative;
+        right: 100px;
+        padding: 20px;
+        border-radius: 100px;
+    }
+
+    #gmail {
+        position: relative;
+        bottom: 165px;
+        left: 50px;
+        padding: 20px;
+        border-radius: 100px;
     }
     
 }
@@ -127,11 +142,23 @@ main h3 {
     text-indent: 1em;
     text-align: justify;
     margin: auto;
+
+}
+
+#gmail:hover {
+    background-color: rgba(255, 174, 174, 0.89);
+    transition: 0.5s;
+}
+
+
+#wpp:hover {
+    background-color: rgba(177, 255, 174, 0.89);
+    transition: 0.5s;
 }
 
 a {
     text-decoration: none;
-    
+
 }
 
 .contato {
