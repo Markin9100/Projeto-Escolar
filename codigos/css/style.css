@@ -135,7 +135,7 @@ main h3 {
     text-indent: 1em;
     text-align: justify;
     margin: auto;
-    border-bottom: solid 0.5px #04b2d983 ;
+    
 }
 
 .texto-cont {
@@ -154,6 +154,10 @@ main h3 {
 #wpp:hover {
     background-color: rgba(177, 255, 174, 0.89);
     transition: 0.5s;
+}
+
+#links {
+    text-decoration: underline;
 }
 
 a {
