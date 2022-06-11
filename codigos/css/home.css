@@ -36,6 +36,8 @@
         text-align: justify;
     
     }
+
+    
     
 }
     :root {
@@ -178,5 +180,11 @@ aside h1 {
     color: var(--cor5);
     font-size: 1.5em;
     text-decoration: none;
+
+}
+
+.servicos:hover {
+    box-shadow: 10px 20px 20px 5px rgba(0, 0, 0, 0.342);
+    transition: 0.3s;
 
 }

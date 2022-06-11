@@ -173,6 +173,10 @@ span {
     color: var(--cor3);
 }
 
+main nav {
+    position: relative;
+}
+
 .fale-conosco {
     margin: 50px;
 }

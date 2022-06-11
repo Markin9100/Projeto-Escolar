@@ -15,7 +15,7 @@ const firebaseConfig = {
 
 
 const app = initializeApp(firebaseConfig);
-const database = getDatabase();
+const database = getDatabase(app);
 const auth = getAuth();
 
 sbt.addEventListener('click',(e) => {
