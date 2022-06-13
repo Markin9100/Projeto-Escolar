@@ -3,19 +3,54 @@
 
 @media (max-width: 769px) {
 
+    header h1 {
+        font-size: 3em;
+    }
+
+    header h2 {
+        font-size: 16px;
+    }
+
     .texto {
         text-align: center;
         font-size: 14px;
         width: 95%;
     }
 
+    img {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 9999;
+    }
+
+    #wpp {
+        position: fixed;
+        bottom: -40px;
+        right: 100px;
+    }
+
     .titulo {
         font-size: 32px;
     }
 
+    main nav {
+        display: none;
+    }
+
+    #num {
+        display: none;
+    }
+
+
 }
 
 @media (min-width: 770px) {
+
+    header h1 {
+        font-size: 4em;
+    }
+
     .texto {
         width: 50%;
     }
@@ -38,6 +73,12 @@
         padding: 20px;
         border-radius: 100px;
     }
+
+    main nav {
+        position: relative;
+        left: 225px;
+        bottom: 58px;
+    }
     
 }
 
@@ -49,6 +90,7 @@
         --cor4: #267590;
         --cor5: #04B2D9;
     }
+
 
 * {
     padding: 0%;
@@ -68,7 +110,6 @@ header {
 
 header h1 {
     padding: 20px 0px 0px 20px;
-    font-size: 4em;
     font-style: italic;
     color: white;
 }
@@ -76,17 +117,13 @@ header h1 {
 header a{
     color: white;
     text-decoration: none;
+    margin: 0px 5px;
 }
 
 header h2 {
     text-align: right;
     margin: 5px 5px;
 
-}
-
-header h2 a {
-    color: white;
-    text-decoration: none;
 }
 
 header h2 a:hover {
@@ -173,10 +210,11 @@ span {
     color: var(--cor3);
 }
 
-main nav {
-    position: relative;
-}
-
 .fale-conosco {
     margin: 50px;
+}
+
+#sup {
+    color: var(--cor4);
+    outline: none;
 }

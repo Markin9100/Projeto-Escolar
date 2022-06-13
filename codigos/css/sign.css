@@ -110,6 +110,10 @@ form {
     border-bottom: solid 1px #04B2D9;
 }
 
+h4 {
+    color: white;
+}
+
 p {
     color: white;
     font-size: 13px;
